@@ -1,0 +1,21 @@
+{
+  "venvPath": ".venv",
+  "venv": ".venv",
+  "pythonPath": ".venv/bin/python",
+  "executionEnvironments": [
+    {
+      "root": ".",
+      "pythonVersion": "3.9",
+      "pythonExtraPaths": [
+        ".venv/lib/python3.*/site-packages",
+        "synapse"
+      ],
+      "reportMissingImports": "error"
+    }
+  ],
+  "reportMissingImports": "error",
+  "reportMissingModuleSource": "none",
+  "pythonPlatform": "Linux",
+  "typeCheckingMode": "strict",
+  "stubPath": "typings"
+}

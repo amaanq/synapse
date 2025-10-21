@@ -1,3 +1,9 @@
+[project]
+name = "synapse"
+requires-python = ">=3.9"
+version = "1.138.2"
+readme = "README.rst"
+
 [tool.towncrier]
     package = "synapse"
     filename = "CHANGES.md"
